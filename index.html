@@ -1,0 +1,425 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Dairy Products - Premium Dairy Delights</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Playfair+Display:wght@400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo"> <span>Dairy</span>Products </a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="#about">About</a></li>
+            <li><a href="#products">Products</a></li>
+            <li><a href="#gallery">Gallery</a></li>
+            <li><a href="#contact">Contact</a></li>
+            <li>
+              <a href="#" id="cart-toggle">
+                <i class="fas fa-shopping-cart"></i>
+                <span id="cart-count">0</span>
+              </a>
+            </li>
+            <li><a href="login.html" class="btn-login">Login</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="hero">
+      <div class="hero-content">
+        <h1>Pure & Fresh Dairy Products</h1>
+        <p>
+          Experience the richness of farm-fresh milk and dairy products
+          delivered straight to your home
+        </p>
+        <a href="#products" class="btn-primary">Explore Products</a>
+      </div>
+      <div class="hero-overlay"></div>
+    </section>
+
+    <section id="about" class="about-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>About Our Dairy</h2>
+          <p>Traditional methods meet modern technology</p>
+        </div>
+        <div class="about-content">
+          <div class="about-text">
+            <h3>Our Story</h3>
+            <p>
+              Dairy Products has been serving the community with premium
+              quality dairy products since 2017. Located in the lush green
+              pastures of Telangana, we take pride in our traditional methods
+              combined with modern technology to deliver the freshest dairy
+              products to your doorstep.
+            </p>
+            <p>
+              Our dairy farm maintains the highest standards of hygiene and
+              animal care, ensuring that every product you receive is pure,
+              nutritious, and delicious.
+            </p>
+            <div class="about-stats">
+              <div class="stat-item">
+                <span class="stat-number">1000+</span>
+                <span class="stat-label">Happy Customers</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">50+</span>
+                <span class="stat-label">Products</span>
+              </div>
+              <div class="stat-item">
+                <span class="stat-number">6</span>
+                <span class="stat-label">Years of Trust</span>
+              </div>
+            </div>
+          </div>
+          <div class="about-image">
+            <img src="images/hero-bg.jpg" alt="Dairy farm" />
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="products" class="products-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Star Products</h2>
+          <p>Premium quality dairy delights</p>
+        </div>
+        <div class="products-grid">
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/fullcreammilk.jpg" alt="Full Cream Milk" />
+            </div>
+            <div class="product-info">
+              <h3>Full Cream Milk</h3>
+              <p>
+                Rich and creamy milk with 6.5% fat content, packed with
+                essential nutrients.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹50/L</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/standardizedmilk.jpg" alt="Standardized Milk" />
+            </div>
+            <div class="product-info">
+              <h3>Standardized Milk</h3>
+              <p>
+                Perfect balance with 4.5% fat and 8.5% SNF for your daily
+                nutrition needs.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹45/L</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/curd.jpg" alt="Fresh Curd" />
+            </div>
+            <div class="product-info">
+              <h3>Fresh Curd</h3>
+              <p>
+                Traditional homemade taste with the goodness of probiotics for
+                gut health.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹40/500g</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/paneer.jpg" alt="Malai Paneer" />
+            </div>
+            <div class="product-info">
+              <h3>Malai Paneer</h3>
+              <p>
+                Soft, fresh paneer with rich creaminess perfect for your
+                favorite recipes.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹300/kg</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/a2milk.jpg" alt="Buffalo Milk" />
+            </div>
+            <div class="product-info">
+              <h3>Buffalo Milk</h3>
+              <p>
+                Premium A2 buffalo milk with 9% fat content for extra richness.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹60/L</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+          <div class="product-card">
+            <div class="product-image">
+              <img src="images/milk.jpg" alt="Milky Milk" />
+            </div>
+            <div class="product-info">
+              <h3>Milky Milk</h3>
+              <p>
+                Our signature milk with perfect balance of taste and nutrition.
+              </p>
+              <div class="product-meta">
+                <span class="price">₹48/L</span>
+                <button class="btn-add">Add to Cart</button>
+              </div>
+            </div>
+          </div>
+        </div>
+        <div class="text-center">
+          <a href="#" class="btn-secondary">View All Products</a>
+        </div>
+      </div>
+    </section>
+
+    <section id="gallery" class="gallery-section">
+      <div class="container">
+        <div class="section-header">
+          <h2>Our Dairy in Pictures</h2>
+          <p>See where the magic happens</p>
+        </div>
+        <div class="gallery-grid">
+          <div class="gallery-item">
+            <img src="images/gallery2.jpg" alt="Dairy farm" />
+            <div class="gallery-overlay">
+              <h3>Modern Facilities</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/gallery4.jpg" alt="Milk processing" />
+            <div class="gallery-overlay">
+              <h3>Quality Control</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/hero-bg.jpg" alt="Happy cows" />
+            <div class="gallery-overlay">
+              <h3>Happy Livestock</h3>
+            </div>
+          </div>
+          <div class="gallery-item">
+            <img src="images/curd.jpg" alt="Dairy products" />
+            <div class="gallery-overlay">
+              <h3>Fresh Products</h3>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <section id="contact" class="contact-section">
+      <div class="container">
+        <div class="contact-grid">
+          <div class="contact-info">
+            <h2>Contact Us</h2>
+            <p>Have questions or need assistance? Reach out to us!</p>
+
+            <div class="info-item">
+              <i class="fas fa-map-marker-alt"></i>
+              <div>
+                <h4>Address</h4>
+                <p>
+                  SY NO:118-119, Pasumamia Village, Hayath Nagar, R.R
+                  Dist-501505, Telangana
+                </p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-phone"></i>
+              <div>
+                <h4>Phone</h4>
+                <p>7799799124</p>
+              </div>
+            </div>
+
+            <div class="info-item">
+              <i class="fas fa-envelope"></i>
+              <div>
+                <h4>Email</h4>
+                <p>contact@dairy.com</p>
+              </div>
+            </div>
+
+            <div class="social-links">
+              <h4>Follow Us</h4>
+              <div class="social-icons">
+                <a href="#" aria-label="Facebook"
+                  ><i class="fab fa-facebook-f"></i
+                ></a>
+                <a href="#" aria-label="Instagram"
+                  ><i class="fab fa-instagram"></i
+                ></a>
+                <a href="#" aria-label="Twitter"
+                  ><i class="fab fa-twitter"></i
+                ></a>
+                <a href="#" aria-label="YouTube"
+                  ><i class="fab fa-youtube"></i
+                ></a>
+              </div>
+            </div>
+          </div>
+
+          <div class="contact-form">
+            <h3>Send us a message</h3>
+            <form id="contactForm">
+              <div class="form-group">
+                <input type="text" id="name" name="name" required />
+                <label for="name">Your Name</label>
+              </div>
+              <div class="form-group">
+                <input type="email" id="email" name="email" required />
+                <label for="email">Your Email</label>
+              </div>
+              <div class="form-group">
+                <input type="text" id="subject" name="subject" required />
+                <label for="subject">Subject</label>
+              </div>
+              <div class="form-group">
+                <textarea
+                  id="message"
+                  name="message"
+                  rows="4"
+                  required
+                ></textarea>
+                <label for="message">Your Message</label>
+              </div>
+              <button type="submit" class="btn-primary">Send Message</button>
+            </form>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-grid">
+          <div class="footer-col">
+            <h3> Dairy Products</h3>
+            <p>
+              Providing premium quality dairy products since 2017 with a
+              commitment to purity, freshness, and taste.
+            </p>
+            <div class="footer-social">
+              <a href="#" aria-label="Facebook"
+                ><i class="fab fa-facebook-f"></i
+              ></a>
+              <a href="#" aria-label="Instagram"
+                ><i class="fab fa-instagram"></i
+              ></a>
+              <a href="#" aria-label="Twitter"
+                ><i class="fab fa-twitter"></i
+              ></a>
+              <a href="#" aria-label="LinkedIn"
+                ><i class="fab fa-linkedin-in"></i
+              ></a>
+            </div>
+          </div>
+          <div class="footer-col">
+            <h3>Quick Links</h3>
+            <ul>
+              <li><a href="index.html">Home</a></li>
+              <li><a href="#about">About Us</a></li>
+              <li><a href="#products">Products</a></li>
+              <li><a href="#gallery">Gallery</a></li>
+              <li><a href="#contact">Contact</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Products</h3>
+            <ul>
+              <li><a href="#">Milk Varieties</a></li>
+              <li><a href="#">Curd & Yogurt</a></li>
+              <li><a href="#">Paneer & Cheese</a></li>
+              <li><a href="#">Ghee & Butter</a></li>
+              <li><a href="#">Specialty Items</a></li>
+            </ul>
+          </div>
+          <div class="footer-col">
+            <h3>Newsletter</h3>
+            <p>
+              Subscribe to our newsletter for the latest updates and offers.
+            </p>
+            <form class="newsletter-form">
+              <input type="email" placeholder="Your Email" required />
+              <button type="submit"><i class="fas fa-paper-plane"></i></button>
+            </form>
+          </div>
+        </div>
+        <div class="footer-bottom">
+          <p>&copy; 2023 Dairy Products. All Rights Reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+            <a href="#">FAQ</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <!-- Cart Sidebar (before </body>) -->
+<div class="cart-sidebar" id="cart-sidebar">
+  <div class="cart-header">
+    <h3>Your Cart</h3>
+    <button id="close-cart">&times;</button>
+  </div>
+  <div class="cart-items" id="cart-items">
+    <!-- Cart items will appear here -->
+  </div>
+  <div class="cart-total">
+    <h4>Total: ₹<span id="cart-total">0</span></h4>
+  </div>
+  <button class="btn-primary" id="checkout-btn">Proceed to Checkout</button>
+</div>
+<!-- Checkout Modal -->
+<div class="checkout-modal" id="checkout-modal">
+  <div class="checkout-content">
+    <button id="close-checkout">&times;</button>
+    <h2>Complete Your Purchase</h2>
+    <div class="payment-options">
+      <div class="upi-payment">
+        <h3>Pay via UPI</h3>
+        <p>Scan the QR code or use the UPI ID below:</p>
+        <img src="images/qrimage.jpeg" alt="UPI QR Code" style="width: 200px; height: 200px; margin: 15px auto; display: block;">
+        <p><strong>UPI ID:</strong>dairy@upi</p>
+        <p><strong>Name:</strong>Dairy Products</p>
+      </div>
+    </div>
+    <button class="btn-primary" id="confirm-payment">I've Made the Payment</button>
+  </div>
+</div>
+    <script src="js/main.js"></script>
+  </body>
+</html>

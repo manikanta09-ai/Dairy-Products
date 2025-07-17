@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Sign Up - Anitha Dairy Products</title>
+    <link rel="stylesheet" href="css/style.css" />
+    <link
+      rel="stylesheet"
+      href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+    />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&display=swap"
+      rel="stylesheet"
+    />
+  </head>
+  <body>
+    <header class="header">
+      <div class="container">
+        <nav class="navbar">
+          <a href="index.html" class="logo"> <span>Anitha</span>Dairy </a>
+          <ul class="nav-links">
+            <li><a href="index.html">Home</a></li>
+            <li><a href="index.html#about">About</a></li>
+            <li><a href="index.html#products">Products</a></li>
+            <li><a href="index.html#contact">Contact</a></li>
+            <li><a href="login.html" class="btn-login">Login</a></li>
+          </ul>
+          <div class="hamburger">
+            <div class="line"></div>
+            <div class="line"></div>
+            <div class="line"></div>
+          </div>
+        </nav>
+      </div>
+    </header>
+
+    <section class="auth-section">
+      <div class="auth-container">
+        <div class="auth-image">
+          <img src="images/curd.jpg" alt="Fresh Curd" />
+          <div class="auth-overlay">
+            <h2>Join Our Dairy Family!</h2>
+            <p>
+              Sign up to enjoy fresh dairy products delivered to your doorstep.
+            </p>
+            <p>Already have an account? <a href="login.html">Login here</a></p>
+          </div>
+        </div>
+        <div class="auth-form">
+          <h2>Create Your Account</h2>
+          <form id="signupForm">
+            <div class="form-group">
+              <input type="text" id="name" name="name" required />
+              <label for="name">Full Name</label>
+              <i class="fas fa-user"></i>
+            </div>
+            <div class="form-group">
+              <input type="email" id="email" name="email" required />
+              <label for="email">Email Address</label>
+              <i class="fas fa-envelope"></i>
+            </div>
+            <div class="form-group">
+              <input type="tel" id="phone" name="phone" required />
+              <label for="phone">Phone Number</label>
+              <i class="fas fa-phone"></i>
+            </div>
+            <div class="form-group">
+              <input type="password" id="password" name="password" required />
+              <label for="password">Password</label>
+              <i class="fas fa-lock"></i>
+              <span
+                class="toggle-password"
+                onclick="togglePassword('password')"
+              >
+                <i class="fas fa-eye"></i>
+              </span>
+            </div>
+            <div class="form-group">
+              <input
+                type="password"
+                id="confirmPassword"
+                name="confirmPassword"
+                required
+              />
+              <label for="confirmPassword">Confirm Password</label>
+              <i class="fas fa-lock"></i>
+              <span
+                class="toggle-password"
+                onclick="togglePassword('confirmPassword')"
+              >
+                <i class="fas fa-eye"></i>
+              </span>
+            </div>
+            <div class="form-group">
+              <input type="text" id="address" name="address" required />
+              <label for="address">Delivery Address</label>
+              <i class="fas fa-map-marker-alt"></i>
+            </div>
+            <div class="form-options">
+              <div class="terms-agree">
+                <input type="checkbox" id="terms" name="terms" required />
+                <label for="terms"
+                  >I agree to the <a href="#">Terms & Conditions</a> and
+                  <a href="#">Privacy Policy</a></label
+                >
+              </div>
+            </div>
+            <button type="submit" style="padding: 5px; border-radius: 5px;" class="btn-primary">Create Account</button>
+          </form>
+        </div>
+      </div>
+    </section>
+
+    <footer class="footer">
+      <div class="container">
+        <div class="footer-bottom">
+          <p>&copy; 2023 Anitha Dairy Products. All Rights Reserved.</p>
+          <div class="footer-links">
+            <a href="#">Privacy Policy</a>
+            <a href="#">Terms of Service</a>
+          </div>
+        </div>
+      </div>
+    </footer>
+    <div class="success-modal" id="success-modal">
+      <div class="success-content">
+        <h3>Account Created Successfully!</h3>
+        <p>You can now login with your credentials.</p>
+        <a href="login.html" class="btn-primary">Go to Login</a>
+      </div>
+    </div>
+    <script src="js/main.js"></script>
+  </body>
+</html>
