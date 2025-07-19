@@ -19,7 +19,7 @@ A responsive web application for a dairy business that allows users to sign up, 
 ├── css/
 │   └── style.css        # Stylesheet
 ├── js/
-│   └── main.js          # (optional JavaScript if used)
+│   └── main.js          
 └── images/              # Dairy-related images used in pages
 ```
 
